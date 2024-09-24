@@ -51,8 +51,8 @@ Swagger for API documentation
 Lombok for reducing boilerplate code
 JWT (JSON Web Token) for secure authentication
 JUnit and Mockito for unit and integration testing
-H2/MySQL for database (H2 for in-memory during development, MySQL for production)
-Docker (optional) for containerization
+MySQL for database
+
 Prerequisites
 Java 17 or higher
 Maven for dependency management
@@ -75,7 +75,7 @@ spring.datasource.url=jdbc:mysql://localhost:3306/task_db
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
-For H2 (in-memory database):
+
 
 properties
 Copy code
